@@ -1,4 +1,5 @@
 import React from "react";
+import TypingAnimation from "./TypingAnimation";
 
 const Hero = () => {
   return (
@@ -11,10 +12,12 @@ const Hero = () => {
           <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
             Grow with data.
           </h1>
-          <div>
+          <div className="flex justify-center">
             <p className="md:text-5xl sm:text-4xl text-xl font-base">
               Fast, flexible financing for{" "}
-              <span className="font-bold ">Ladida</span>
+              <span className="font-bold ">
+                <TypingAnimation />
+              </span>
             </p>
           </div>
         </div>
