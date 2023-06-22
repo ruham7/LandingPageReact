@@ -5,7 +5,7 @@ const TypingAnimation = () => {
   const typingRef = useRef(null);
   useEffect(() => {
     const options = {
-      strings: ["^2000 Hello World", "^3000 Bye Bye"],
+      strings: ["^2000 Hello World", "^2000 Bye Bye", "^2000 Ruhama"],
       typeSpeed: 100,
       backSpeed: 50,
       backDelay: 3000,
@@ -19,7 +19,7 @@ const TypingAnimation = () => {
   }, []);
   return (
     <span
-      className="md:text-5xl sm:text-4xl text-xl font-base"
+      className="md:text-5xl sm:text-4xl text-xl font-base text-gray-400"
       ref={typingRef}
     />
   );
