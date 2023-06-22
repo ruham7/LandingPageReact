@@ -27,34 +27,40 @@ const Footer = () => {
           </div>
         </div>
         <div className="col md:col-span-2">
-          <div className="grid grid-cols-4 p-4 lg:text-center">
+          <div className="grid grid-cols-4 p-4 lg:text-center text-gray-400 font-medium">
             <div>
-              <p className="py-2 pt-4 text-lg font-bold">Solutions</p>
+              <p className="py-2 pt-4 text-lg font-bold text-gray-200">
+                Solutions
+              </p>
               <p className="py-2 ">Analytics</p>
               <p className="py-2 ">Marketing</p>
               <p className="py-2 ">Commerce</p>
               <p className="py-2 ">Insights</p>
             </div>
             <div>
-              <p className="py-2 pt-4">Solutions</p>
-              <p className="py-2">Solutions</p>
-              <p className="py-2">Solutions</p>
-              <p className="py-2">Solutions</p>
-              <p className="py-2">Solutions</p>
+              <p className="py-2 pt-4 text-lg font-bold text-gray-200">
+                Support
+              </p>
+              <p className="py-2">Pricing</p>
+              <p className="py-2">Documentation</p>
+              <p className="py-2">Guides</p>
+              <p className="py-2">API Status</p>
             </div>
             <div>
-              <p className="py-2 pt-4">Solutions</p>
-              <p className="py-2">Solutions</p>
-              <p className="py-2">Solutions</p>
-              <p className="py-2">Solutions</p>
-              <p className="py-2">Solutions</p>
+              <p className="py-2 pt-4 text-lg font-bold text-gray-200">
+                Company
+              </p>
+              <p className="py-2">About</p>
+              <p className="py-2">Blog</p>
+              <p className="py-2">Jobs</p>
+              <p className="py-2">Press</p>
+              <p className="py-2">Partners</p>
             </div>
             <div>
-              <p className="py-2 pt-4">Solutions</p>
-              <p className="py-2">Solutions</p>
-              <p className="py-2">Solutions</p>
-              <p className="py-2">Solutions</p>
-              <p className="py-2">Solutions</p>
+              <p className="py-2 pt-4 text-lg font-bold text-gray-200">Legal</p>
+              <p className="py-2">Claim</p>
+              <p className="py-2">Policy</p>
+              <p className="py-2">Terms</p>
             </div>
           </div>
         </div>
